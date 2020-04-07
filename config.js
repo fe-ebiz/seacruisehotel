@@ -9,7 +9,7 @@ module.exports = function () {
         template = {
             src: source + '/www/**/!(_)*.html',
             parts: source + '/www/**/_*.html',
-            dest: development + '/www',
+            dest: development + '/',
             src_m: source + '/m/**/!(_)*.html',
             parts_m: source + '/m/**/_*.html',
             dest_m: development + '/m',
