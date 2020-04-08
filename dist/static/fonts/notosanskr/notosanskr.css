@@ -4,7 +4,10 @@
         font-family: 'Noto Sans KR';
         font-style: normal;
         font-weight: 100;
-        src: url(./NotoSans-Thin.woff) format('woff'),
+        /* src: local('Noto Sans Thin'), local('Noto Sans Thin'), local('Noto Sans Thin'); */
+        src: url(./NotoSans-Thin.eot);
+        src: url(./NotoSans-Thin.eot?#iefix) format('embedded-opentype'),
+            url(./NotoSans-Thin.woff) format('woff'),
             url(./NotoSans-Thin.otf) format('truetype');
     }
     
@@ -12,7 +15,10 @@
         font-family: 'Noto Sans KR';
         font-style: normal;
         font-weight: 300;
-        src: url(./NotoSans-Light.woff) format('woff'),
+        /* src: local('Noto Sans Light'), local('Noto Sans Light'), local('Noto Sans Light'); */
+        src: url(./NotoSans-Light.eot);
+        src: url(./NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+            url(./NotoSans-Light.woff) format('woff'),
             url(./NotoSans-Light.otf) format('truetype');
     }
     
@@ -20,7 +26,10 @@
         font-family: 'Noto Sans KR';
         font-style: normal;
         font-weight: 400;
-        src: url(./NotoSans-Regular.woff) format('woff'),
+        /* src: local('Noto Sans Regular'), local('Noto Sans Regular'), local('Noto Sans Regular'); */
+        src: url(./NotoSans-Regular.eot);
+        src: url(./NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+            url(./NotoSans-Regular.woff) format('woff'),
             url(./NotoSans-Regular.otf) format('truetype');
     }
     
@@ -28,7 +37,10 @@
         font-family: 'Noto Sans KR';
         font-style: normal;
         font-weight: 500;
-        src: url(./NotoSans-Medium.woff) format('woff'),
+        /* src: local('Noto Sans Medium'), local('Noto Sans Medium'), local('Noto Sans Medium'); */
+        src: url(./NotoSans-Medium.eot);
+        src: url(./NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+            url(./NotoSans-Medium.woff) format('woff'),
             url(./NotoSans-Medium.otf) format('truetype');
     }
     
@@ -36,7 +48,10 @@
         font-family: 'Noto Sans KR';
         font-style: normal;
         font-weight: 700;
-        src: url(./NotoSans-Bold.woff) format('woff'),
+        /* src: local('Noto Sans Bold'), local('Noto Sans Bold'), local('Noto Sans Bold'); */
+        src: url(./NotoSans-Bold.eot);
+        src: url(./NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
+            url(./NotoSans-Bold.woff) format('woff'),
             url(./NotoSans-Bold.otf) format('truetype');
     }
     
@@ -44,6 +59,9 @@
         font-family: 'Noto Sans KR';
         font-style: normal;
         font-weight: 900;
-        src: url(./NotoSans-Black.woff) format('woff'),
+        /* src: local('Noto Sans Black'), local('Noto Sans Black'), local('Noto Sans Black'); */
+        src: url(./NotoSans-Black.eot);
+        src: url(./NotoSans-Black.eot?#iefix) format('embedded-opentype'),
+            url(./NotoSans-Black.woff) format('woff'),
             url(./NotoSans-Black.otf) format('truetype');
     }

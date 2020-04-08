@@ -25,7 +25,7 @@ const copy = require('gulp-copy');
 function bSync() {
     browserSync.init({
         // watch: true,
-        port: 3030,
+        port: 3050,
         startPath: './main/',
         server: {
             baseDir: './dist'
