@@ -13,7 +13,7 @@
     }
 }
 
-.sec.faq-sec {
+.sec.notice-faq-sec {
     .faq-wrapper {
         .faq-content {
             .faq-list-wrapper {
@@ -107,8 +107,7 @@
     $title-fz: 17px;
     $content-fz: 16px;
 
-    .sec.notice-sec,
-    .sec.faq-sec {
+    #noticePage {
         .title-type1 {
             font-size: $title-fz;
             font-weight: 700;
@@ -216,7 +215,7 @@
     }
 
     // 자주 묻는 질문 영역
-    .sec.faq-sec {
+    .sec.notice-faq-sec {
         margin-top: 30px;
 
         .faq-wrapper {
@@ -233,7 +232,7 @@
                     }
 
                     .faq-list {
-                        border-top: 1px solid #bbb;
+                        border-top: 2px solid #2d2d2d;
 
                         .faq-item {
 
@@ -285,6 +284,41 @@
                                 }
                             }
 
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 파일 다운로드 영역
+    .sec.notice-file-sec {
+        margin-top: 30px;
+
+        .file-wrapper {
+            .file-content {
+                padding-bottom: 30px;
+
+                .file-list {
+                    padding-top: 20px;
+                    border-top: 2px solid #2d2d2d;
+
+
+                    .file-item {
+                        &+li {
+                            margin-top: 10px;
+                        }
+
+                        .download-btn {
+                            display: block;
+                            height: 46px;
+                            line-height: 46px;
+                            background-color: #fff;
+                            border: 1px solid #888;
+                            font-family: $font-ntss;
+                            text-align: center;
+                            font-size: 18px;
 
                         }
                     }
@@ -369,8 +403,7 @@
     $title-fz: 30px;
     $content-fz: 18px;
 
-    .sec.notice-sec,
-    .sec.faq-sec {
+    #noticePage {
         .title-type1 {
             font-size: $title-fz;
             font-weight: 700;
@@ -480,7 +513,7 @@
     }
 
     // 자주 묻는 질문 영역
-    .sec.faq-sec {
+    .sec.notice-faq-sec {
         margin-top: 50px;
 
         .faq-wrapper {
@@ -496,7 +529,8 @@
                     }
 
                     .faq-list {
-                        border-top: 1px solid #bbb;
+                        // border-top: 1px solid #bbb;
+                        border-top: 2px solid #2d2d2d;
 
                         .faq-item {
 
@@ -547,6 +581,39 @@
                             }
 
 
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 파일 다운로드 영역
+    .sec.notice-file-sec {
+        margin-top: 50px;
+
+        .file-wrapper {
+            .file-content {
+                padding-bottom: 100px;
+
+                .file-list {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 50px;
+                    border-top: 2px solid #2d2d2d;
+
+                    .file-item {
+                        width: 45%;
+
+                        .download-btn {
+                            display: block;
+                            height: 56px;
+                            line-height: 56px;
+                            background-color: #fff;
+                            border: 1px solid #888;
+                            font-family: $font-ntss;
+                            text-align: center;
+                            font-size: 18px;
                         }
                     }
                 }
