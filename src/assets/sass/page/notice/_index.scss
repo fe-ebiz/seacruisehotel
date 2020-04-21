@@ -472,6 +472,32 @@
         }
     }
 
+    .tbl-type2-wrapper {
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .tbl-type2 {
+        width: 100%;
+        border-collapse: collapse;
+
+        th,
+        td {
+            padding: 10px 20px !important;
+            background-color: #fff;
+            border: 1px solid #bfbfbf;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        td {
+            text-align: right;
+        }
+    }
+
     // 공지사항 영역
     .sec.notice-sec {
         .notice-wrapper {
